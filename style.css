@@ -1,0 +1,118 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+ 
+ body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+} 
+
+.gpt-parent{
+    height:100vh;
+    background-color: grey;
+    margin:0px;
+    /* padding:20px; */
+    display:flex;
+}
+.left{
+   flex:2;
+    height:100%;
+    background-color: #181818;
+}
+.right{
+    flex:10;
+    height:100%;
+    background-color:#212121;
+}
+.left-nav{
+    width:auto;
+    padding: 9px 10px;
+    background-color:#181818;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+i{
+   font-size: 28px; 
+}
+.left-nav>p{
+    margin:0;
+}
+.history{
+    height:600px;
+    padding: 5px;
+    /* background-color: black; */
+    overflow-y:scroll;
+    
+}
+.history>p{
+    width:200px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.history>p:hover{
+    background-color: grey;
+    cursor:pointer;
+}
+.right-nav{
+    width: auto;
+    background-color:#212121;
+    margin:0;
+    color: white;
+    padding: 0;
+    display: flex;
+    padding:2px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand{
+    margin:0;
+    padding: 0;
+}
+.animal-img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.Chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:400px; */
+}
+.Chat>p{
+    padding:11px 20px;
+    background-color: white;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+}
+input{
+    width: 60%;
+    height:30px;
+    padding:12px 10px;
+    border-top-left-radius: 33px;
+    border-bottom-left-radius: 33px;
+    border:none;
+    outline:none; 
+    
+}
+input::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+.bi-arrow-up-circle{
+    color:black;
+}
+.answer{
+    width:auto;
+    /* background-color: white; */
+    padding:10px;
+    height:500px;
+
+}
+.store{
+    padding-left: 10px;
+}
